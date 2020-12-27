@@ -1,0 +1,62 @@
+h1 {
+  color: #142691;
+  font-size: 60px;
+}
+
+h2 {
+  color: #08426e;
+  font-size: 40px;
+}
+
+h3 {
+  margin: 20px 0;
+}
+
+a {
+  color: #08426e;
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.header {
+  font-size: 34px;
+}
+
+.today {
+  width: 410px;
+  border: 3px solid #93beb7;
+  padding: 20px;
+  margin: 20px 20px 20px 30px;
+  background-color: #a3d2ca;
+}
+.todayInfo {
+  line-height: 35px;
+  text-align: left;
+}
+
+.description {
+  font-size: 30px;
+}
+
+.units {
+  font-size: 15px;
+  position: relative;
+  top: -15px;
+}
+
+.active {
+  color: #08426e;
+  cursor: default;
+}
+
+.active:hover {
+  text-decoration: none;
+}
+
+.measures {
+  font-size: 18px;
+  text-align: right;
+}

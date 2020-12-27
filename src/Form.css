@@ -1,0 +1,17 @@
+form {
+  display: inline-block;
+  margin: 15px;
+}
+
+form input {
+  text-align: center;
+  color: #596aca;
+  font-size: 20px;
+  border-radius: 5px;
+  border-color: #000000;
+}
+
+.form {
+  display: block;
+  margin: 0 auto;
+}

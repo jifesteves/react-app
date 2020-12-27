@@ -1,26 +1,20 @@
-import logo from './logo.svg';
-import './App.css';
-import axios from "axios";
+import React from "react";
+import "./styles.css";
+import Form from "./Form";
+import TodayTemp from "./TodayTemp";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="app-wrapper">
+        <div className="weather-app">
+          <h2 className="header"> Weather around the world</h2>
+          <Form />
+          <TodayTemp />
+        </div>
+      </div>
+      <a href= "https://github.com/jifesteves/weather-react" target ="_blank" rel="noreferrer"> Open-Source code </a> by <a href="https://www.linkedin.com/in/joana-esteves-63322328/" target="_blank" rel="noreferrer">Joana Esteves</a> 
     </div>
   );
 }
-
-export default App;
