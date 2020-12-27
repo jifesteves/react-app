@@ -14,7 +14,7 @@ export default function App() {
           <TodayTemp />
         </div>
       </div>
-      <a href= "https://github.com/jifesteves/weather-react" target ="_blank" rel="noreferrer"> Open-Source code </a> by <a href="https://www.linkedin.com/in/joana-esteves-63322328/" target="_blank" rel="noreferrer">Joana Esteves</a> 
+      <a href= "https://github.com/jifesteves/react-app" target ="_blank" rel="noreferrer"> Open-Source code </a> by <a href="https://www.linkedin.com/in/joana-esteves-63322328/" target="_blank" rel="noreferrer">Joana Esteves</a> 
     </div>
   );
 }
