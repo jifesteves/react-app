@@ -11,7 +11,7 @@ export default function App() {
         <div className="weather-app">
           <h2 className="header"> Weather around the world</h2>
           <Form />
-          <TodayTemp />
+          <TodayTemp defaultCity ="Lisbon" />
         </div>
       </div>
       <a href= "https://github.com/jifesteves/react-app" target ="_blank" rel="noreferrer"> Open-Source code </a> by <a href="https://www.linkedin.com/in/joana-esteves-63322328/" target="_blank" rel="noreferrer">Joana Esteves</a> 
