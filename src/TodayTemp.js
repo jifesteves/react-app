@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import "./TodayTemp.css";
 import axios from "axios";
+import FormattedDate from "./FormattedDate";
 
 export default function TodayTemp(props) {
 
@@ -13,7 +14,7 @@ export default function TodayTemp(props) {
       ready: true,
       temperature: response.data.main.temp,
       humidity: response.data.main.humidity,
-      date: "Thrusday 03:06",
+      date: new Date(response.data.dt * 1000),
       description: response.data.weather[0].description,
       icon: `http://openweathermap.org/img/wn/${response.data.weather[0].icon}@2x.png`,
       wind: response.data.wind.speed,
@@ -25,7 +26,7 @@ export default function TodayTemp(props) {
    if (weatherData.ready) {
     return (
     <div className="todayWeather">
-      <h3 id="today">{weatherData.date}</h3>
+      <h3 id="today"><FormattedDate date= {weatherData.date} /> </h3>
       <div className="today">
         <h1 id="city">{weatherData.city}</h1>
         <h2 className="todayInfo" id="today-temp">
