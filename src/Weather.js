@@ -69,7 +69,7 @@ if (weatherData.ready) {
    </div> 
 )
 } else {
-    search()
+    search("Lisbon")
    return "Loading...";
 }
 }
