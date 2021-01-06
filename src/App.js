@@ -10,8 +10,8 @@ export default function App() {
           <h2 className="header"> Weather around the world</h2>
         <Weather defaultCity ="Lisbon" />
         </div>
+        <a href= "https://github.com/jifesteves/react-app" target ="_blank" rel="noreferrer"> Open-Source code </a> by <a href="https://www.linkedin.com/in/joana-esteves-63322328/" target="_blank" rel="noreferrer">Joana Esteves</a>
       </div>
-      <a href= "https://github.com/jifesteves/react-app" target ="_blank" rel="noreferrer"> Open-Source code </a> by <a href="https://www.linkedin.com/in/joana-esteves-63322328/" target="_blank" rel="noreferrer">Joana Esteves</a> 
     </div>
   );
 }

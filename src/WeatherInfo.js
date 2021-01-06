@@ -2,6 +2,8 @@ import React from "react";
 import FormattedDate from "./FormattedDate";
 import WeatherIcon from "./WeatherIcon";
 import Temperature from "./Temperature";
+import "./WeatherInfo.css";
+
 
 export default function WeatherInfo (props) {
  return (
@@ -12,9 +14,9 @@ export default function WeatherInfo (props) {
         <h2 className="todayInfo" id="today-temp">
           <ul>
             <li>
-              <Temperature celsius= {props.data.temperature}/>
-              
+              <Temperature celsius= {props.data.temperature}/> 
               <WeatherIcon code={props.data.icon}/>
+                                     
              </li>
             <li>
               <span className= "text-capitalize" id="description">{props.data.description}</span>
