@@ -44,7 +44,7 @@ form input {
 }
 
 .today {
-  width: 540px;
+  width: 410px;
   border: 3px solid #93beb7;
   padding: 20px;
   margin: 20px 20px 20px 50px;
@@ -58,5 +58,3 @@ form input {
 .description {
   font-size: 30px;
 }
-
-
