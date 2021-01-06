@@ -59,22 +59,4 @@ form input {
   font-size: 30px;
 }
 
-.units {
-  font-size: 15px;
-  position: relative;
-  top: -15px;
-}
 
-.active {
-  color: #08426e;
-  cursor: default;
-}
-
-.active:hover {
-  text-decoration: none;
-}
-
-.measures {
-  font-size: 18px;
-  text-align: right;
-}
