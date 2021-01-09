@@ -55,14 +55,7 @@ if (weatherData.ready) {
             />
             </span>
              <span className = "col">  <input type="submit" value="Search" className="btn btn-primary" /> </span> 
-           <span className = "col"> 
-             <input
-              type="submit"
-              value="📍"
-              className="btn btn-success"
-              id="current-loc"
-            /> 
-            </span>       
+              
         </div>
       </form>
     </div>
