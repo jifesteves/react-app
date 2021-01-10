@@ -12,7 +12,7 @@ export default function ForecastByHour (props) {
   return (
     <div className= "col">
       {hours()}
-      <WeatherIcon code = {props.data.weather[0].icon} size = {40} />
+      <WeatherIcon code = {props.data.weather[0].icon} size = {35} />
       {Math.round(props.data.main.temp)}°C
 
     </div>
